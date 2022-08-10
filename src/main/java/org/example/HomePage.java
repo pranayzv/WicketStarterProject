@@ -1,8 +1,12 @@
 package org.example;
 
-import org.apache.wicket.PageParameters;
-import org.apache.wicket.markup.html.basic.Label;
+
+
+
 import org.apache.wicket.markup.html.WebPage;
+import org.apache.wicket.markup.html.basic.Label;
+import org.apache.wicket.request.mapper.parameter.PageParameters;
+
 
 /**
  * Homepage
@@ -19,6 +23,7 @@ public class HomePage extends WebPage {
 	 * @param parameters
 	 *            Page parameters
 	 */
+
     public HomePage(final PageParameters parameters) {
 
         // Add the simplest type of label

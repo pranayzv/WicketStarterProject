@@ -14,8 +14,15 @@ public class WicketApplication extends WebApplication
      */
 	public WicketApplication()
 	{
+		mountPackage("/fff",HomePage.class);
+
 	}
-	
+
+	@Override
+	protected void init() {
+
+	}
+
 	/**
 	 * @see wicket.Application#getHomePage()
 	 */
